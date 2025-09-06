@@ -1,0 +1,438 @@
+{
+  "CGL": {
+    "general_awareness": [
+      {
+        "id": "cgl_ga_1",
+        "q": "Who is known as the Father of the Indian Constitution?",
+        "options": [
+          "Mahatma Gandhi",
+          "B. R. Ambedkar",
+          "Jawaharlal Nehru",
+          "Rajendra Prasad"
+        ],
+        "answer": 1,
+        "explain": "Dr. B. R. Ambedkar was the Chairman of the Drafting Committee."
+      },
+      {
+        "id": "cgl_ga_2",
+        "q": "The smallest planet in the Solar System is?",
+        "options": [
+          "Mercury",
+          "Mars",
+          "Venus",
+          "Pluto"
+        ],
+        "answer": 0,
+        "explain": "Mercury is the smallest planet currently classified in the Solar System."
+      },
+      {
+        "id": "cgl_ga_3",
+        "q": "Which river is also called 'Dakshin Ganga'?",
+        "options": [
+          "Godavari",
+          "Krishna",
+          "Cauvery",
+          "Narmada"
+        ],
+        "answer": 0,
+        "explain": "Godavari is the longest river in peninsular India."
+      },
+      {
+        "id": "cgl_ga_4",
+        "q": "The currency of Japan is:",
+        "options": [
+          "Won",
+          "Yen",
+          "Yuan",
+          "Ruble"
+        ],
+        "answer": 1,
+        "explain": "Japan uses the Japanese Yen (JPY)."
+      },
+      {
+        "id": "cgl_ga_5",
+        "q": "Which vitamin is produced in the skin by sunlight?",
+        "options": [
+          "Vitamin A",
+          "Vitamin C",
+          "Vitamin D",
+          "Vitamin K"
+        ],
+        "answer": 2,
+        "explain": "UV light helps synthesize Vitamin D in the skin."
+      }
+    ],
+    "aptitude": [
+      {
+        "id": "cgl_ap_1",
+        "q": "What is 35% of 240?",
+        "options": [
+          "72",
+          "84",
+          "96",
+          "64"
+        ],
+        "answer": 1,
+        "explain": "0.35 × 240 = 84."
+      },
+      {
+        "id": "cgl_ap_2",
+        "q": "A ratio 3:5 is equivalent to:",
+        "options": [
+          "9:25",
+          "6:10",
+          "12:15",
+          "Both (2) and (3)"
+        ],
+        "answer": 3,
+        "explain": "Multiplying 3:5 by 2 or 4 gives 6:10 and 12:15."
+      },
+      {
+        "id": "cgl_ap_3",
+        "q": "Simple Interest on ₹1000 at 10% p.a. for 2 years is:",
+        "options": [
+          "₹100",
+          "₹150",
+          "₹200",
+          "₹250"
+        ],
+        "answer": 2,
+        "explain": "SI = PRT/100 = 1000×10×2/100 = 200."
+      },
+      {
+        "id": "cgl_ap_4",
+        "q": "Value of 12² − 9² is:",
+        "options": [
+          "63",
+          "21",
+          "45",
+          "144"
+        ],
+        "answer": 0,
+        "explain": "(a²−b²)=(a−b)(a+b)=(3)(21)=63."
+      },
+      {
+        "id": "cgl_ap_5",
+        "q": "If a train covers 120 km in 2 hours, its speed is:",
+        "options": [
+          "40 km/h",
+          "50 km/h",
+          "60 km/h",
+          "80 km/h"
+        ],
+        "answer": 2,
+        "explain": "Speed = Distance/Time = 120/2 = 60 km/h."
+      }
+    ],
+    "english": [
+      {
+        "id": "cgl_en_1",
+        "q": "Choose the correct synonym of 'Abundant'.",
+        "options": [
+          "Scarce",
+          "Plentiful",
+          "Little",
+          "Rare"
+        ],
+        "answer": 1,
+        "explain": "'Abundant' means 'plentiful'."
+      },
+      {
+        "id": "cgl_en_2",
+        "q": "Fill in the blank: He _____ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "gone",
+          "going"
+        ],
+        "answer": 1,
+        "explain": "Third-person singular present tense uses 'goes'."
+      },
+      {
+        "id": "cgl_en_3",
+        "q": "Antonym of 'Transparent' is:",
+        "options": [
+          "Opaque",
+          "Clear",
+          "Lucid",
+          "Sheer"
+        ],
+        "answer": 0,
+        "explain": "'Opaque' is the opposite of 'transparent'."
+      },
+      {
+        "id": "cgl_en_4",
+        "q": "Identify the error: 'She don't like tea.'",
+        "options": [
+          "She",
+          "don't",
+          "like",
+          "tea"
+        ],
+        "answer": 1,
+        "explain": "Should be 'doesn't' for third-person singular."
+      },
+      {
+        "id": "cgl_en_5",
+        "q": "Choose the correct spelling:",
+        "options": [
+          "Accomodate",
+          "Acommodate",
+          "Accommodate",
+          "Accommadate"
+        ],
+        "answer": 2,
+        "explain": "'Accommodate' has double 'c' and double 'm'."
+      }
+    ],
+    "general_intelligence": [
+      {
+        "id": "cgl_gi_1",
+        "q": "Find the next number: 2, 6, 12, 20, 30, __",
+        "options": [
+          "36",
+          "40",
+          "42",
+          "44"
+        ],
+        "answer": 2,
+        "explain": "Differences: +4, +6, +8, +10; next +12 ⇒ 42."
+      },
+      {
+        "id": "cgl_gi_2",
+        "q": "If CAT = 24, BAT = 23, then HAT = ? (A=1...)",
+        "options": [
+          "29",
+          "31",
+          "33",
+          "30"
+        ],
+        "answer": 0,
+        "explain": "H(8)+A(1)+T(20)=29."
+      },
+      {
+        "id": "cgl_gi_3",
+        "q": "Which is the odd one out?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Cube"
+        ],
+        "answer": 3,
+        "explain": "Cube is 3D; others are 2D shapes."
+      },
+      {
+        "id": "cgl_gi_4",
+        "q": "Mirror image of 'b' looks like:",
+        "options": [
+          "d",
+          "p",
+          "q",
+          "None"
+        ],
+        "answer": 2,
+        "explain": "Lowercase 'b' mirror resembles 'd' horizontally and 'q' vertically; common answer here is 'q' per horizontal mirror convention."
+      },
+      {
+        "id": "cgl_gi_5",
+        "q": "Rearrange to form a meaningful word: 'RAEHT'",
+        "options": [
+          "EARTH",
+          "HEART",
+          "HATER",
+          "REHAT"
+        ],
+        "answer": 1,
+        "explain": "Anagram forms 'HEART'."
+      }
+    ]
+  },
+  "CHSL": {
+    "general_awareness": [
+      {
+        "id": "chsl_ga_1",
+        "q": "National animal of India is:",
+        "options": [
+          "Lion",
+          "Elephant",
+          "Tiger",
+          "Peacock"
+        ],
+        "answer": 2,
+        "explain": "Royal Bengal Tiger."
+      },
+      {
+        "id": "chsl_ga_2",
+        "q": "H2O is the chemical formula for:",
+        "options": [
+          "Hydrogen",
+          "Oxygen",
+          "Water",
+          "Helium"
+        ],
+        "answer": 2,
+        "explain": "Two hydrogen atoms and one oxygen."
+      }
+    ],
+    "aptitude": [
+      {
+        "id": "chsl_ap_1",
+        "q": "What is 15 × 14?",
+        "options": [
+          "196",
+          "210",
+          "224",
+          "205"
+        ],
+        "answer": 1,
+        "explain": "15×14=210."
+      }
+    ],
+    "english": [
+      {
+        "id": "chsl_en_1",
+        "q": "Choose the correctly punctuated sentence.",
+        "options": [
+          "i like apples.",
+          "I like Apples.",
+          "I like apples.",
+          "i Like apples."
+        ],
+        "answer": 2,
+        "explain": "Start with capital, 'apples' not proper noun."
+      }
+    ],
+    "general_intelligence": [
+      {
+        "id": "chsl_gi_1",
+        "q": "If MONDAY is coded as NOMDAY, then TUESDAY as:",
+        "options": [
+          "UTESDAY",
+          "TUESADY",
+          "UTESADY",
+          "TUSEADY"
+        ],
+        "answer": 2,
+        "explain": "Swap first two letters."
+      }
+    ]
+  },
+  "MTS": {
+    "general_awareness": [
+      {
+        "id": "mts_ga_1",
+        "q": "Largest continent is:",
+        "options": [
+          "Africa",
+          "Asia",
+          "Europe",
+          "Australia"
+        ],
+        "answer": 1,
+        "explain": "Asia is the largest continent."
+      }
+    ],
+    "aptitude": [
+      {
+        "id": "mts_ap_1",
+        "q": "Square of 19 is:",
+        "options": [
+          "381",
+          "361",
+          "371",
+          "351"
+        ],
+        "answer": 1,
+        "explain": "19² = 361."
+      }
+    ],
+    "english": [
+      {
+        "id": "mts_en_1",
+        "q": "Choose the correct article: ___ hour",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": 1,
+        "explain": "Vowel sound → 'an'."
+      }
+    ],
+    "general_intelligence": [
+      {
+        "id": "mts_gi_1",
+        "q": "Which one is different?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Circle"
+        ],
+        "answer": 3,
+        "explain": "Circle is shape; others are colors."
+      }
+    ]
+  },
+  "CPO": {
+    "general_awareness": [
+      {
+        "id": "cpo_ga_1",
+        "q": "First President of India:",
+        "options": [
+          "Rajendra Prasad",
+          "S. Radhakrishnan",
+          "Zakir Hussain",
+          "VV Giri"
+        ],
+        "answer": 0,
+        "explain": "Dr. Rajendra Prasad served 1950–1962."
+      }
+    ],
+    "aptitude": [
+      {
+        "id": "cpo_ap_1",
+        "q": "Find the HCF of 24 and 36.",
+        "options": [
+          "6",
+          "12",
+          "18",
+          "24"
+        ],
+        "answer": 1,
+        "explain": "24=2³×3, 36=2²×3²; HCF=2²×3=12."
+      }
+    ],
+    "english": [
+      {
+        "id": "cpo_en_1",
+        "q": "Choose the correct passive: 'They will finish the work.'",
+        "options": [
+          "The work will be finished by them.",
+          "The work is finished by them.",
+          "The work has been finished by them.",
+          "The work was finished by them."
+        ],
+        "answer": 0,
+        "explain": "Future simple passive: will be + past participle."
+      }
+    ],
+    "general_intelligence": [
+      {
+        "id": "cpo_gi_1",
+        "q": "Series: 5, 10, 20, 40, __",
+        "options": [
+          "45",
+          "60",
+          "70",
+          "80"
+        ],
+        "answer": 3,
+        "explain": "Each term doubles."
+      }
+    ]
+  }
+}

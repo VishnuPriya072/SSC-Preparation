@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <title>SSC Preparation PWA</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="description" content="SSC exam preparation: choose exam, pick section, and practice MCQs offline with a PWA." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="SSC Prep" class="logo" />
+      <h1>SSC Preparation</h1>
+    </div>
+    <button id="installBtn" class="btn secondary" hidden>Install App</button>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>1) Choose Exam</h2>
+      <div class="grid">
+        <label class="chip">
+          <input type="radio" name="exam" value="CGL" checked>
+          <span>SSC CGL</span>
+        </label>
+        <label class="chip">
+          <input type="radio" name="exam" value="CHSL">
+          <span>SSC CHSL</span>
+        </label>
+        <label class="chip">
+          <input type="radio" name="exam" value="MTS">
+          <span>SSC MTS</span>
+        </label>
+        <label class="chip">
+          <input type="radio" name="exam" value="CPO">
+          <span>SSC CPO</span>
+        </label>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>2) Select Section</h2>
+      <div class="grid">
+        <label class="chip">
+          <input type="radio" name="section" value="general_awareness" checked>
+          <span>General Awareness</span>
+        </label>
+        <label class="chip">
+          <input type="radio" name="section" value="aptitude">
+          <span>Aptitude</span>
+        </label>
+        <label class="chip">
+          <input type="radio" name="section" value="english">
+          <span>English</span>
+        </label>
+        <label class="chip">
+          <input type="radio" name="section" value="general_intelligence">
+          <span>General Intelligence</span>
+        </label>
+      </div>
+      <div class="row">
+        <label>Number of Questions
+          <select id="countSelect">
+            <option>5</option>
+            <option selected>10</option>
+            <option>15</option>
+            <option>20</option>
+          </select>
+        </label>
+        <label>Mode
+          <select id="modeSelect">
+            <option value="practice" selected>Practice (instant feedback)</option>
+            <option value="test">Test (score at the end)</option>
+          </select>
+        </label>
+      </div>
+      <button id="startBtn" class="btn primary">Start Preparing</button>
+    </section>
+
+    <section id="quizSection" class="card hidden">
+      <div class="quiz-header">
+        <h2 id="quizTitle">Quiz</h2>
+        <div class="stats">
+          <span id="progress">Q 1/10</span>
+          <span id="score">Score: 0</span>
+          <button id="resetBtn" class="btn secondary small">Reset</button>
+        </div>
+      </div>
+      <div id="questionBox"></div>
+      <div class="actions">
+        <button id="prevBtn" class="btn">Previous</button>
+        <button id="nextBtn" class="btn">Next</button>
+        <button id="finishBtn" class="btn accent">Finish</button>
+      </div>
+      <div id="resultBox" class="result hidden"></div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>Works offline • <a href="#" id="clearData">Clear saved progress</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
